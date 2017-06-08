@@ -1,0 +1,557 @@
+.head {
+  overflow: auto;
+  background-color: #12d5b5;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  padding: 0 7px;
+}
+.head .text {
+  color: #fff;
+}
+.head .custom {
+  width: 2.4rem;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  margin-top: 0.13333333rem;
+  background-color: #f12;
+  border-color: #f12;
+  color: #fff;
+  border-radius: 8px;
+}
+.head .bg-btn {
+  font-size: 25px;
+  width: 1rem;
+  left: 0;
+}
+.bg-w {
+  background-color: #fff;
+}
+.c-w {
+  color: #fff;
+}
+.c-r {
+  color: red;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-r {
+  text-align: right;
+}
+.va-m {
+  vertical-align: middle;
+}
+.va-t {
+  vertical-align: top;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.foot {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #d4d4d4;
+  height: 40px;
+  line-height: 40px;
+  left: 0;
+  right: 0;
+  font-size: 0;
+}
+.foot li {
+  font-size: 20px;
+  width: 33.33%;
+  color: #9f91bd;
+}
+.foot li.select {
+  background-color: goldenrod;
+  color: greenyellow;
+}
+.foot .icon-document {
+  background-image: url(../image/document.png);
+  width: 25px;
+  height: 21px;
+}
+.foot .icon-search {
+  background-image: url(../image/search.png);
+  width: 24px;
+  height: 24px;
+}
+.foot .icon-my {
+  background-image: url(../image/my.png);
+  width: 23px;
+  height: 25px;
+}
+.position-list {
+  margin: 0;
+  padding: 0 3px;
+}
+.position-list .item {
+  list-style: none;
+  border-bottom: 2px solid #ddd;
+}
+.position-list .item .logo {
+  width: 1.73333333rem;
+  height: 1.73333333rem;
+  margin-right: 13px;
+}
+.position-list .item .title {
+  margin: 0;
+}
+.position-list .item .text {
+  margin: 0;
+}
+.position-list .item .icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 14px;
+  right: 12px;
+}
+.position-list .item .icon.star {
+  background-image: url(../image/star.png);
+}
+.position-list .item .icon.star-active {
+  background-image: url(../image/star-active.png);
+}
+.bottom-btn {
+  position: fixed;
+  height: 1.2rem;
+  background-color: #12d5b5;
+  width: 100%;
+  bottom: 0;
+  outline-width: 0;
+  border-width: 0;
+  font-size: 0.48rem;
+}
+.position-desc {
+  margin-top: 10px;
+}
+.position-desc h5 {
+  border-bottom: 1px solid #ccc;
+  margin-top: 0;
+  padding-left: 10px;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  font-size: 0.42666667rem;
+}
+.position-desc pre {
+  padding-left: 10px;
+  margin-left: 0;
+}
+.position-info {
+  padding: 26px 10px 18px 10px;
+  border-bottom: 1px solid #ccc;
+}
+.position-info .ml {
+  margin-left: 20px;
+}
+.position-info img {
+  right: 24px;
+  top: 40px;
+}
+.company-info {
+  padding: 20px 15px 13px 85px;
+}
+.company-info img {
+  width: 1.6rem;
+  height: 1.6rem;
+  left: 15px;
+}
+.company-info p {
+  margin-top: 0;
+}
+.position-class {
+  background-color: #fff;
+  border-top: 1px solid #fff;
+  padding: 13px 9px 5px 9px;
+}
+.position-class h5 {
+  margin: 0 0 30px 0;
+  font-size: 0.42666667rem;
+  border-top: 1px solid #d4d4d4;
+}
+.position-class button {
+  background-color: #def8f5;
+  border-radius: 20px;
+  padding: 10px 23px;
+  margin-right: 11px;
+}
+.position-class button.active {
+  background-color: #12d5b5;
+  color: #fff;
+}
+.position-class ul {
+  border-top: 1px solid #d4d4d4;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.position-class ul li {
+  list-style: none;
+}
+.position-class ul li span {
+  color: red;
+  top: 10px;
+  right: 20px;
+}
+.search-bar {
+  background-color: #12d5b5;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+}
+.search-bar input {
+  border-radius: 50px;
+  background-color: #eee;
+  border-style: none;
+  box-sizing: border-box;
+  outline-width: 0;
+}
+.search-bar img {
+  transform: scale(0.6);
+}
+.search-bar button {
+  font-size: 0.42666667rem;
+  background-color: #12d5b5;
+  border-width: 0;
+}
+.search-bar button:first-child {
+  color: #fff;
+}
+.search-bar button:last-child {
+  color: black;
+}
+.search-list {
+  margin-top: 2.13333333rem;
+}
+.tab {
+  background-color: #eee;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  margin-top: 1.06666667rem;
+  font-size: 0;
+}
+.tab li {
+  font-size: 0.37333333rem;
+  width: 33.3%;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  border-bottom: 2px solid #eee;
+}
+.tab li.active {
+  border-bottom: 2px solid greenyellow;
+}
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+.sheet .wrap {
+  position: fixed;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  z-index: 100;
+}
+.sheet .wrap li,
+.sheet .wrap button {
+  color: #1063e5;
+  background-color: #f1f1f1;
+  font-size: 0.42666667rem;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+}
+.sheet .wrap button {
+  margin-top: 8px;
+  width: 100%;
+  border-width: 0;
+  border-radius: 5px;
+}
+.sheet .wrap ul {
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  max-width: 500px;
+}
+.sheet .wrap ul li {
+  list-style: none;
+  border-bottom: 1px solid #d4d4d4;
+}
+.login {
+  background-image: url(/image/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.login form {
+  margin-top: 6.93333333rem;
+}
+.login form .ng-invalid + span {
+  background-color: transparent;
+  position: absolute;
+  color: red;
+  right: 0;
+  height: 100%;
+  text-align: right;
+  font-size: 12px;
+}
+.login form .ng-invalid + span p {
+  margin: 0;
+}
+.login form .form-line {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  box-sizing: content-box;
+  font-size: 0;
+  width: 8rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.login form .form-line:first-child {
+  border-bottom: 1px solid white;
+}
+.login form .form-line .icon {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position: 20px 10px;
+  height: 100%;
+  width: 1.46666667rem;
+}
+.login form .form-line .account {
+  background-image: url(../image/account.png);
+  background-repeat: no-repeat;
+}
+.login form .form-line .lock {
+  background-image: url(../image/lock.png);
+  background-repeat: no-repeat;
+}
+.login form .form-line input {
+  border-width: 0;
+  outline-width: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 0.37333333rem;
+  width: 6.53333333rem;
+  padding-left: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.login form .form-line input::-webkit-input-placeholder {
+  color: white;
+}
+.login form button {
+  font-size: 22px;
+  font-weight: bold;
+  width: 8rem;
+  height: 0.93333333rem;
+}
+.login form button.login-btn {
+  margin-top: 75px;
+  background-color: #12d5b5;
+  color: #fff;
+}
+.login form button.rejistor-btn {
+  margin-top: 20px;
+  background-color: rgba(18, 213, 181, 0.3);
+  color: #12d5b5;
+  border: 1px solid #12d5b5;
+}
+.rejistor {
+  background-image: url(/image/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.rejistor form {
+  margin-top: 1.46666667rem;
+}
+.rejistor form .ng-invalid + span {
+  background-color: transparent;
+  position: absolute;
+  color: red;
+  right: 0;
+  height: 100%;
+  text-align: right;
+  font-size: 12px;
+}
+.rejistor form .ng-invalid + span p {
+  margin: 0;
+}
+.rejistor form .form-line {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  box-sizing: content-box;
+  font-size: 0;
+  width: 8rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.rejistor form .form-line:first-child {
+  border-bottom: 1px solid white;
+}
+.rejistor form .form-line span.icon {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position: 20px 10px;
+  height: 100%;
+  width: 1.46666667rem;
+}
+.rejistor form .form-line .account {
+  background-image: url(../image/account.png);
+  background-repeat: no-repeat;
+}
+.rejistor form .form-line .lock {
+  background-image: url(../image/lock.png);
+  background-repeat: no-repeat;
+}
+.rejistor form .form-line input {
+  border-width: 0;
+  outline-width: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 0.37333333rem;
+  width: 6.53333333rem;
+  padding-left: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.rejistor form .form-line input::-webkit-input-placeholder {
+  color: white;
+}
+.rejistor form .message-wrap {
+  margin-top: 1.06666667rem;
+  width: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rejistor form .message-wrap .message-box {
+  border-width: 0;
+  outline-width: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-size: 0.37333333rem;
+  width: 5.06666667rem;
+  height: 1.06666667rem;
+}
+.rejistor form .message-wrap .message-box::-webkit-input-placeholder {
+  color: white;
+}
+.rejistor form .message-wrap .message {
+  font-size: 0.37333333rem;
+  color: #12d5b5;
+  border: 1px solid #12d5b5;
+  padding: 0 5px;
+  margin-top: 20px;
+}
+.rejistor form button {
+  font-size: 22px;
+  font-weight: bold;
+  width: 8rem;
+  height: 0.93333333rem;
+}
+.rejistor form button.login-btn {
+  margin-top: 75px;
+  background-color: #12d5b5;
+  color: #fff;
+}
+.rejistor form button.rejistor-btn {
+  margin-top: 20px;
+  background-color: rgba(18, 213, 181, 0.3);
+  color: #12d5b5;
+  border: 1px solid #12d5b5;
+}
+.me img {
+  margin-top: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.me .name {
+  margin-top: 0.66666667rem;
+}
+.me .login-btn {
+  color: #fff;
+  background-color: #12d5b5;
+  border-radius: 10px;
+  width: 9.06666667rem;
+  height: 1.06666667rem;
+  margin-top: 8rem;
+  font-size: 0.42666667rem;
+}
+.me .btns {
+  margin-top: 1.06666667rem;
+}
+.me .btns button {
+  background-color: #12d5b5;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.42666667rem;
+  width: 4rem;
+  height: 2.53333333rem;
+  margin-left: 0.32rem;
+}
+.me .btns button.logout {
+  background-color: red;
+  width: 9.06666667rem;
+  height: 1.06666667rem;
+  margin-top: 0.8rem;
+}
+.myPost {
+  margin-top: 1.06666667rem;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  font-size: 0.42666667rem;
+  background-color: #eee;
+}
